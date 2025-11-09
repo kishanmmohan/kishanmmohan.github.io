@@ -70,11 +70,13 @@ pnpm dlx shadcn-vue@latest add badge
 
 ## Deployment
 
-The site is deployed to GitHub Pages manually:
-1. Run `pnpm run generate` to build the static site
-2. The output is generated in `.output/public/`
-3. Commit and push the repository to the `main` branch
-4. GitHub Pages will serve the static files from the repository
+The site is automatically deployed to GitHub Pages via GitHub Actions:
+1. Push changes to the `main` branch
+2. GitHub Actions workflow (`.github/workflows/deploy.yml`) triggers automatically
+3. The workflow installs dependencies, runs `pnpm run generate`, and deploys to GitHub Pages
+4. Site is live at kishanmmohan.dev within a few minutes
+
+**Note**: GitHub Pages must be configured with "Source: GitHub Actions" in repository settings.
 
 ## Key Configuration
 
