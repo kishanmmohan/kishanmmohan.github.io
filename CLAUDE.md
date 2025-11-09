@@ -30,7 +30,7 @@ This is a GitHub Pages personal portfolio website hosted at kishanmmohan.dev. Bu
 │   └── CNAME                # Custom domain configuration
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml       # GitHub Actions deployment workflow
+│       └── nuxtjs.yml       # GitHub Actions deployment workflow
 ├── components.json          # shadcn-vue configuration
 ├── nuxt.config.ts           # Nuxt configuration
 ├── tailwind.config.js       # Tailwind configuration
@@ -72,7 +72,7 @@ pnpm dlx shadcn-vue@latest add badge
 
 The site is automatically deployed to GitHub Pages via GitHub Actions:
 1. Push changes to the `main` branch
-2. GitHub Actions workflow (`.github/workflows/deploy.yml`) triggers automatically
+2. GitHub Actions workflow (`.github/workflows/nuxtjs.yml`) triggers automatically
 3. The workflow installs dependencies, runs `pnpm run generate`, and deploys to GitHub Pages
 4. Site is live at kishanmmohan.dev within a few minutes
 
