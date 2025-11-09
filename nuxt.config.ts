@@ -5,7 +5,12 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
+    'nuxt-gtag',
   ],
+
+  gtag: {
+    id: process.env.NUXT_PUBLIC_GTAG_ID
+  },
 
   // Static site generation for GitHub Pages
   ssr: true,
