@@ -52,20 +52,6 @@ export default defineNuxtConfig({
         { property: "og:site_name", content: "Kishan M Mohan" },
         { property: "og:locale", content: "en_US" },
 
-        // Twitter/X Card
-        { name: "twitter:card", content: "summary" },
-        {
-          name: "twitter:title",
-          content: "Kishan M Mohan | Head of Engineering",
-        },
-        {
-          name: "twitter:description",
-          content:
-            "Head of Engineering at nuark.ai. Building high-performance engineering teams.",
-        },
-        { name: "twitter:site", content: "@kishanmmohan" },
-        { name: "twitter:creator", content: "@kishanmmohan" },
-
         // Additional Contact
         { name: "contact", content: "madhanmohankishan@gmail.com" },
 

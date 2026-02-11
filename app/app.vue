@@ -67,28 +67,6 @@
             LinkedIn
           </a>
           <a
-            href="https://x.com/kishanmmohan"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors flex items-center gap-2"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-            </svg>
-            X
-          </a>
-          <a
             href="https://medium.com/@kishanmmohan"
             target="_blank"
             rel="noopener noreferrer"
@@ -278,7 +256,6 @@ useHead({
         url: "https://kishanmmohan.dev",
         sameAs: [
           "https://www.linkedin.com/in/kishanmmohan/",
-          "https://x.com/kishanmmohan",
           "https://github.com/kishanmmohan",
           "https://medium.com/@kishanmmohan",
         ],
