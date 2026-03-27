@@ -5,6 +5,10 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/tailwindcss", "nuxt-gtag"],
 
+  components: [
+    { path: "~/components", ignore: ["**/ui/**"] },
+  ],
+
   gtag: {
     id: process.env.NUXT_PUBLIC_GTAG_ID,
   },
@@ -59,7 +63,19 @@ export default defineNuxtConfig({
         { name: "format-detection", content: "telephone=no" },
         { name: "theme-color", content: "#ffffff" },
       ],
-      link: [{ rel: "canonical", href: "https://kishanmmohan.dev" }],
+      link: [
+        { rel: "canonical", href: "https://kishanmmohan.dev" },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: "",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap",
+        },
+      ],
     },
   },
 
