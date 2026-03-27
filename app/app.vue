@@ -75,7 +75,7 @@
       <!-- About Section -->
       <div class="mb-12">
         <div class="flex items-center gap-4 mb-5">
-          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">About</span>
+          <h2 class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">About</h2>
           <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
         </div>
         <p class="text-[15px] text-gray-700 dark:text-gray-300 leading-relaxed mb-4 text-justify">
@@ -98,17 +98,17 @@
 
       <!-- Philosophy Quote -->
       <div class="mb-12">
-        <p class="text-sm italic text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-lg mx-auto">
+        <blockquote class="text-sm italic text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-lg mx-auto">
           "The best product managers emerge from embracing ambiguity, not
           avoiding it. When requirements are unclear and constraints keep
           shifting, that's not a bug—it's where the interesting work begins."
-        </p>
+        </blockquote>
       </div>
 
       <!-- Highlight Section -->
       <div class="mb-12">
         <div class="flex items-center gap-4 mb-5">
-          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Highlight</span>
+          <h2 class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Highlight</h2>
           <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
         </div>
         <a
@@ -122,20 +122,20 @@
               Over-Engineering My Homelab: Building a Hybrid ARM/x86 Kubernetes
               Cluster for Fun and Frustration
             </h3>
-            <p class="text-sm text-gray-500 dark:text-gray-500 mb-0">
+            <p class="text-sm text-gray-500 dark:text-gray-400">
               A deep dive into building a production-grade Kubernetes cluster at
               home, mixing ARM and x86 architectures, and learning why some
               problems are worth solving even when they don't need to be.
             </p>
           </div>
-          <span class="text-gray-300 dark:text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity text-lg mt-0.5 shrink-0">→</span>
+          <span aria-hidden="true" class="text-gray-300 dark:text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity text-lg mt-0.5 shrink-0">→</span>
         </a>
       </div>
 
       <!-- Core Competencies Section -->
       <div class="mb-12">
         <div class="flex items-center gap-4 mb-5">
-          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Core Competencies</span>
+          <h2 class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Core Competencies</h2>
           <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
         </div>
         <div class="flex flex-wrap gap-2">
