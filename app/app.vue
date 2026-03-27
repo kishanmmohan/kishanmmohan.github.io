@@ -72,7 +72,82 @@
         </div>
       </div>
 
-      <!-- REMAINING SECTIONS GO HERE (next tasks) -->
+      <!-- About Section -->
+      <div class="mb-12">
+        <div class="flex items-center gap-4 mb-5">
+          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">About</span>
+          <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
+        </div>
+        <p class="text-[15px] text-gray-700 dark:text-gray-300 leading-relaxed mb-4 text-justify">
+          I am currently the Head of Engineering at nuark.ai, where I am
+          building a world-class engineering team across frontend, backend,
+          platform, and DevOps. My focus is on establishing engineering culture,
+          setting up technical direction, and scaling the team to deliver
+          impactful products.
+        </p>
+        <p class="text-[15px] text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+          What drives me is the messy middle ground where product vision meets
+          technical constraints. I thrive when requirements are unclear, when
+          the path forward isn't obvious, and when success depends on
+          orchestrating people, systems, and priorities across teams that speak
+          different languages. Whether I'm defining platform strategy, debugging
+          why an integration broke, or tinkering with my homelab at 2am, I'm
+          always asking: what's the simplest thing that could actually work?
+        </p>
+      </div>
+
+      <!-- Philosophy Quote -->
+      <div class="mb-12">
+        <p class="text-sm italic text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-lg mx-auto">
+          "The best product managers emerge from embracing ambiguity, not
+          avoiding it. When requirements are unclear and constraints keep
+          shifting, that's not a bug—it's where the interesting work begins."
+        </p>
+      </div>
+
+      <!-- Highlight Section -->
+      <div class="mb-12">
+        <div class="flex items-center gap-4 mb-5">
+          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Highlight</span>
+          <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
+        </div>
+        <a
+          href="https://kishanmmohan.medium.com/over-engineering-my-homelab-building-a-hybrid-arm-x86-kubernetes-cluster-for-fun-and-frustration-6e832bb7a057"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group flex items-start justify-between gap-4"
+        >
+          <div>
+            <h3 class="text-[15px] font-medium text-gray-900 dark:text-white mb-1 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
+              Over-Engineering My Homelab: Building a Hybrid ARM/x86 Kubernetes
+              Cluster for Fun and Frustration
+            </h3>
+            <p class="text-sm text-gray-500 dark:text-gray-500 mb-0">
+              A deep dive into building a production-grade Kubernetes cluster at
+              home, mixing ARM and x86 architectures, and learning why some
+              problems are worth solving even when they don't need to be.
+            </p>
+          </div>
+          <span class="text-gray-300 dark:text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity text-lg mt-0.5 shrink-0">→</span>
+        </a>
+      </div>
+
+      <!-- Core Competencies Section -->
+      <div class="mb-12">
+        <div class="flex items-center gap-4 mb-5">
+          <span class="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 whitespace-nowrap">Core Competencies</span>
+          <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Technical Product Management</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">System Architecture</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">PIM/MDM/DAM</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Data Platforms</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">DevOps & CI/CD</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Cross-functional Leadership</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Product Roadmap</span>
+        </div>
+      </div>
 
     </div>
   </div>
