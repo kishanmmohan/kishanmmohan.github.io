@@ -79,29 +79,27 @@
           <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
         </div>
         <p class="text-[15px] text-gray-700 dark:text-gray-300 leading-relaxed mb-4 text-justify">
-          I am currently the Head of Engineering at nuark.ai, where I am
-          building a world-class engineering team across frontend, backend,
-          platform, and DevOps. My focus is on establishing engineering culture,
-          setting up technical direction, and scaling the team to deliver
-          impactful products.
+          I am a Principal Engineer and Head of Engineering at nuark.ai, where I
+          architect and lead the development of enterprise AI infrastructure —
+          multi-model LLM gateways, AI agent platforms, and multi-tenant data
+          processing SaaS products.
         </p>
         <p class="text-[15px] text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
-          What drives me is the messy middle ground where product vision meets
-          technical constraints. I thrive when requirements are unclear, when
-          the path forward isn't obvious, and when success depends on
-          orchestrating people, systems, and priorities across teams that speak
-          different languages. Whether I'm defining platform strategy, debugging
-          why an integration broke, or tinkering with my homelab at 2am, I'm
-          always asking: what's the simplest thing that could actually work?
+          I operate at the intersection of deep technical work and engineering
+          leadership. I design systems from first principles, make the
+          foundational decisions that teams build on, and set the standards that
+          make engineering sustainable at scale. With 9+ years across distributed
+          systems, multi-tenant architecture, and AI/LLM infrastructure, I build
+          the platforms that power everything else.
         </p>
       </div>
 
       <!-- Philosophy Quote -->
       <div class="mb-12">
         <blockquote class="text-sm italic text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-lg mx-auto">
-          "The best product managers emerge from embracing ambiguity, not
-          avoiding it. When requirements are unclear and constraints keep
-          shifting, that's not a bug—it's where the interesting work begins."
+          "The most important engineering decisions aren't in the code — they're
+          in the architecture you choose, the abstractions you define, and the
+          standards you enforce before anyone writes a single line."
         </blockquote>
       </div>
 
@@ -139,13 +137,14 @@
           <div class="flex-1 h-px bg-gray-200 dark:bg-gray-800"></div>
         </div>
         <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Technical Product Management</span>
-          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">System Architecture</span>
-          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">PIM/MDM/DAM</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Multi-tenant Architecture</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">LLM Infrastructure & AI Platforms</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Distributed Systems</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Cloud-native Infrastructure (Azure AKS, GCP)</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Engineering Leadership</span>
+          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">System Design & Architecture</span>
           <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Data Platforms</span>
           <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">DevOps & CI/CD</span>
-          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Cross-functional Leadership</span>
-          <span class="px-3 py-1 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-xs rounded-sm">Product Roadmap</span>
         </div>
       </div>
 
